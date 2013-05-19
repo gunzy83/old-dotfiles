@@ -5,10 +5,10 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="norm"
+ZSH_THEME="gunzy"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
@@ -46,6 +46,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/data/scripts:/usr/lib/x86_64-linux-gnu/qt4/bin:/opt/toolchains/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export DEFAULT_USER=gunzy
 eval `dircolors ~/.dircolors` 
+export GREP_COLOR="2;31"
 alias homeshick="$HOME/.homesick/repos/homeshick/home/.homeshick"
 homeshick --quiet refresh
