@@ -33,6 +33,7 @@ toggleMainWindow=none,none,Toggle Main Window
 _k_friendly_name=KDE Activity Manager
 switch-to-activity-27b0f80e-e2af-4de7-85d4-f6f304b9dc2e=none,none,Switch to activity "New Activity"
 switch-to-activity-3e71eee5-0884-43c6-8f48-de3a21e25350=none,none,Switch to activity "Desktop"
+switch-to-activity-d1f2d4de-c708-4824-9277-549383cc2fa9=none,none,Switch to activity "Desktop"
 
 [kded]
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -99,6 +100,8 @@ Decrease Opacity=none,none,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10,Ctrl+F10,Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
+FlipSwitchAll=none,none,Toggle Flip Switch (All desktops)
+FlipSwitchCurrent=none,none,Toggle Flip Switch (Current desktop)
 Increase Opacity=none,none,Increase Opacity of Active Window by 5 %
 Invert Screen Colors=none,none,Invert Screen Colors
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
@@ -242,13 +245,15 @@ Next Activity=Meta+Tab,Meta+Tab,Next Activity
 Previous Activity=Meta+Shift+Tab,Meta+Shift+Tab,Previous Activity
 Show Dashboard=Ctrl+F12,Ctrl+F12,Show Dashboard
 Stop Activity=Meta+S,Meta+S,Stop Current Activity
+SystemTray-Klipper-40=,Ctrl+Alt+V,
 SystemTray-Klipper-8=Ctrl+Alt+V,Ctrl+Alt+V,
 _k_friendly_name=Plasma Desktop Shell
 activate widget 11=none,none,Activate Notifications Widget
+activate widget 19=Alt+F1,Alt+F1,Activate Application Launcher Widget
 activate widget 2=none,none,Activate Instant Messaging Presence Widget
 activate widget 20=none,none,Activate Enhanced Battery Monitor Widget
 activate widget 3=none,none,Activate Manage Print Jobs Widget
-activate widget 4=Alt+F1,Alt+F1,Activate Application Launcher Widget
+activate widget 4=,Alt+F1,Activate Application Launcher Widget
 activate widget 5=none,none,Activate Device Notifier Widget
 manage activities=Meta+Q,Meta+Q,Activities...
 
