@@ -33,7 +33,6 @@ toggleMainWindow=none,none,Toggle Main Window
 _k_friendly_name=KDE Activity Manager
 switch-to-activity-27b0f80e-e2af-4de7-85d4-f6f304b9dc2e=none,none,Switch to activity "New Activity"
 switch-to-activity-3e71eee5-0884-43c6-8f48-de3a21e25350=none,none,Switch to activity "Desktop"
-switch-to-activity-d1f2d4de-c708-4824-9277-549383cc2fa9=none,none,Switch to activity "Desktop"
 
 [kded]
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -253,7 +252,7 @@ activate widget 19=Alt+F1,Alt+F1,Activate Application Launcher Widget
 activate widget 2=none,none,Activate Instant Messaging Presence Widget
 activate widget 20=none,none,Activate Enhanced Battery Monitor Widget
 activate widget 3=none,none,Activate Manage Print Jobs Widget
-activate widget 4=,Alt+F1,Activate Application Launcher Widget
+activate widget 4=Alt+F1,Alt+F1,Activate Application Launcher Widget
 activate widget 5=none,none,Activate Device Notifier Widget
 manage activities=Meta+Q,Meta+Q,Activities...
 
