@@ -248,7 +248,7 @@ activate widget 11=none,none,Activate Notifications Widget
 activate widget 2=none,none,Activate Instant Messaging Presence Widget
 activate widget 20=none,none,Activate Enhanced Battery Monitor Widget
 activate widget 3=none,none,Activate Manage Print Jobs Widget
-activate widget 4=Alt+F1,Alt+F1,Activate Application Launcher Widget
+activate widget 4=none,Alt+F1,Activate Network Management Widget
 activate widget 5=none,none,Activate Device Notifier Widget
 manage activities=Meta+Q,Meta+Q,Activities...
 
