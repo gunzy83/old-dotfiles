@@ -1,0 +1,9 @@
+[user]
+	name = Ross Williams
+	email = gunzy83au@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = git-meld
+[credential]
+	helper = cache --timeout=3600
