@@ -45,7 +45,8 @@ plugins=(git colorize)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/data/scripts:/usr/lib/x86_64-linux-gnu/qt4/bin:/opt/toolchains/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=/data/scripts:/usr/lib/x86_64-linux-gnu/qt4/bin:/opt/toolchains/CodeSourcery/Sourcery_CodeBench_Lite_for_ARM_GNU_Linux/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/programs/android/sdk/platform-tools/
+
 export DEFAULT_USER=gunzy
 eval `dircolors ~/.dircolors` 
 export GREP_COLOR="2;31"
