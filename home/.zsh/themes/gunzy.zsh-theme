@@ -155,12 +155,16 @@ prompt_status() {
 ## Main prompt
 build_prompt() {
   RETVAL=$?
-  prompt_status
-  prompt_context
-  prompt_dir
-  prompt_git
-  prompt_hg
-  prompt_end
+  if [ $TERM = "xterm" ]; then
+	prompt_status
+	prompt_context
+	prompt_dir
+	prompt_git
+	prompt_hg
+	prompt_end
+  else
+	echo -n "%n@%m $"
+  fi
 }
 
 PROMPT='%{%f%b%k%}$(build_prompt) '
